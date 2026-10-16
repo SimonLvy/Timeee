@@ -1,0 +1,50 @@
+{
+  "name": "Timeee",
+  "subtitle": "Clock radio, alarms and sleep",
+  "description": "Timeee: a vintage clock radio for your iPhone. Alarms with smart snooze, sleep tracking, world radio, sleep sounds. Everything stays on your iPhone: no account, no analytics, no tracking.",
+  "iconURL": "https://raw.githubusercontent.com/SimonLvy/Timeee/main/altstore/icon.png",
+  "website": "https://github.com/SimonLvy/Timeee",
+  "tintColor": "#D93F12",
+  "nsfw": false,
+  "featuredApps": [
+    "com.simonlevy.Timeee"
+  ],
+  "apps": [
+    {
+      "name": "Timeee",
+      "bundleIdentifier": "com.simonlevy.Timeee",
+      "developerName": "Simon Levy",
+      "subtitle": "Clock radio, alarms and sleep",
+      "localizedDescription": "A clock radio in the spirit of 60s Braun radios, in French and English.\n\n• Alarms that ring even on silent, with a bounded snooze (9, 7 then 5 min, louder each time)\n• Wake up to the weather, music or world radio\n• Challenges to stop the alarm: math, shake, memory\n• Sleep: Health nights (Apple Watch or iPhone), sleep debt, trends, journal\n• Night mode, night recordings, sleep sounds mixer, bedtime reminder\n• Nap dial, timer, stopwatch, world clock, StandBy widgets, Dynamic Island\n\nPrivacy: no account, no analytics, no ads, no tracking. Alarms, nights, journal and recordings never leave your iPhone. Weather receives your location rounded to about 1 km; radio search goes to Radio Browser.\n\nRequires iOS 26.2 or later.",
+      "iconURL": "https://raw.githubusercontent.com/SimonLvy/Timeee/main/altstore/icon.png",
+      "tintColor": "#D93F12",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-10-16",
+          "localizedDescription": "First release. Français et English.",
+          "downloadURL": "https://github.com/SimonLvy/Timeee/releases/download/v1.0/Timeee.ipa",
+          "size": 4704027,
+          "minOSVersion": "26.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit",
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSAlarmKitUsageDescription": "Timeee schedules your alarms so they ring even in silent mode.",
+          "NSAppleMusicUsageDescription": "Timeee reads your playlists to wake you up with music when the app is open.",
+          "NSHealthShareUsageDescription": "Timeee reads your nights from Health to show your sleep time, stages and sleep debt.",
+          "NSLocationWhenInUseUsageDescription": "Timeee uses your location while the app is open, to show your city's weather when the alarm rings.",
+          "NSMicrophoneUsageDescription": "Timeee records night sounds (snoring, talking) when you turn it on in Night mode. Nothing leaves your iPhone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
